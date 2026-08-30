@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# per-vault runtime data — never template content
+.scriptorium/audit.jsonl
+.scriptorium/audit.head

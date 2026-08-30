@@ -1,0 +1,35 @@
+{
+  "raw": "0-raw",
+  "wiki": "1-wiki",
+  "output": "3-output",
+  "inbox": "0-raw/inbox",
+  "ledger": "0-raw/_ledger.md",
+  "wiki_dirs": [
+    "concepts",
+    "entities",
+    "topics"
+  ],
+  "kinds": {
+    "concept": "concepts",
+    "concepts": "concepts",
+    "entity": "entities",
+    "entities": "entities",
+    "topic": "topics",
+    "topics": "topics"
+  },
+  "confidence": [
+    "high",
+    "medium",
+    "low",
+    "contested"
+  ],
+  "required": [
+    "type",
+    "title",
+    "owner",
+    "created",
+    "compiled",
+    "confidence",
+    "sources"
+  ]
+}

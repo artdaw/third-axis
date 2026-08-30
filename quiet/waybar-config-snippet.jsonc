@@ -1,0 +1,11 @@
+// Add to ~/.config/waybar/config.jsonc — Omarchy ships waybar by default.
+"custom/quiet": {
+  "exec": "~/Claude_Cowork/third-axis/quiet/waybar-quiet.sh",
+  "return-type": "json",
+  "interval": 900,          // every 15 min; it is silent almost every time
+  "on-click": "kitty -e sh -c 'quiet --why; read'"
+}
+
+// ...and in ~/.config/waybar/style.css
+// #custom-quiet.silent   { opacity: 0; }         /* gone, not greyed out */
+// #custom-quiet.speaking { color: #e0a070; }
