@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="384" viewBox="0 0 880 384" role="img" aria-label="Third Axis — provenance enforcement. A refused write: rule 3, every compiled page carries provenance.">
+  <rect width="880" height="384" rx="10" fill="#EFF1EE"/>
+
+  <text x="44" y="66" font-family="ui-serif, Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#1A1A1D" letter-spacing="-1.1">Third Axis</text>
+  <text x="44" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#6B3A63" letter-spacing="1.6">PROVENANCE ENFORCEMENT FOR AI AGENTS</text>
+  <text x="44" y="124" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#5B5F5C">An agent that cannot write what it did not read.</text>
+
+  <rect x="44" y="152" width="792" height="196" rx="8" fill="#FBFCFA" stroke="#C2C7C1" stroke-width="1"/>
+  <line x1="44" y1="184" x2="836" y2="184" stroke="#C2C7C1" stroke-width="1"/>
+  <circle cx="64" cy="168" r="4.5" fill="#888D89"/>
+  <circle cx="80" cy="168" r="4.5" fill="#888D89"/>
+  <circle cx="96" cy="168" r="4.5" fill="#888D89"/>
+  <text x="118" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#888D89" letter-spacing="1.2">vault_write</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5">
+    <text x="68" y="214" fill="#888D89">$ vault_write title="Adoption Gap" sources=[]</text>
+    <text x="68" y="252" fill="#9C4A2E" font-weight="700">REFUSED<tspan fill="#1A1A1D" font-weight="400"> — rule 3: every compiled page carries</tspan></text>
+    <text x="68" y="272" fill="#1A1A1D">provenance. 'sources' is empty.</text>
+    <text x="68" y="306" fill="#5B5F5C">In plain terms: I did not write that note. Tell me</text>
+    <text x="68" y="326" fill="#5B5F5C">which of your saved sources it came from.</text>
+  </g>
+</svg>
