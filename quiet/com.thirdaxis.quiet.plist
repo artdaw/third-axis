@@ -4,12 +4,12 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.gleb.quiet</string>
+  <string>com.thirdaxis.quiet</string>
 
   <key>ProgramArguments</key>
   <array>
     <string>/usr/bin/python3</string>
-    <string>/Users/gleb/Claude_Cowork/third-axis/quiet/quiet.py</string>
+    <string>__QUIET_PY__</string>
     <string>--notify</string>
   </array>
 

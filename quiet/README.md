@@ -66,18 +66,19 @@ It will not repeat itself. Once it has notified you about something it stays
 quiet about that thing for 20 hours (`--repeat-after`). Saying it twice is how
 a quiet tool becomes a nagging one, which is the whole failure mode.
 
-To run it on a schedule:
+To run it on a schedule (macOS):
 
 ```bash
-cp com.gleb.quiet.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/com.gleb.quiet.plist
+sed "s|__QUIET_PY__|$PWD/quiet.py|" com.thirdaxis.quiet.plist \
+  > ~/Library/LaunchAgents/com.thirdaxis.quiet.plist
+launchctl load ~/Library/LaunchAgents/com.thirdaxis.quiet.plist
 ```
 
 Three times a day — 09:00, 13:00, 17:00. Not hourly: something that checks in
 constantly is the problem, not the fix. To stop it:
 
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.gleb.quiet.plist
+launchctl unload ~/Library/LaunchAgents/com.thirdaxis.quiet.plist
 ```
 
 ## Streams
