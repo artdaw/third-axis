@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# per-vault runtime data — never template content
-.scriptorium/audit.jsonl
-.scriptorium/audit.head
+# per-vault runtime data — never template content.
+# Leading **/ matters: a pattern containing a slash is anchored to this
+# directory, so ".scriptorium/audit.jsonl" would miss vault-template/.
+**/.scriptorium/audit.jsonl
+**/.scriptorium/audit.head
